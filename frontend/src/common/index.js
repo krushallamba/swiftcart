@@ -1,80 +1,81 @@
 // const backendDomain  = 'http://localhost:8080'
+const backendDomain = 'https://swiftcart-backend-fhle.onrender.com'
 
 const SummaryApi = {
     signUp : {
-        url: 'http://localhost:8080/api/signup',
+        url: `${backendDomain}/api/signup`,
         method: 'post'
     },
     signIn : {
-        url: 'http://localhost:8080/api/signin',
+        url: `${backendDomain}/api/signin`,
         method: 'post'
     },
     current_user : {
-        url: 'http://localhost:8080/api/user-details',
+        url: `${backendDomain}/api/user-details`,
         method: 'get'
     },
     logout_user : {
-        url: 'http://localhost:8080/api/userLogout',
+        url: `${backendDomain}/api/userLogout`,
         method: 'get'
     },
     allUser : {
-        url: 'http://localhost:8080/api/all-users',
+        url: `${backendDomain}/api/all-users`,
         method: 'get'
     },
     updateUser: {
-        url: 'http://localhost:8080/api/update-user',
+        url: `${backendDomain}/api/update-user`,
         method: 'post'
     },
     uploadProduct : {
-        url: 'http://localhost:8080/api/upload-product',
+        url: `${backendDomain}/api/upload-product`,
         method: 'post'
     },
     allProduct : {
-        url: 'http://localhost:8080/api/get-product',
+        url: `${backendDomain}/api/get-product`,
         method: 'get'
     },
     updateProduct : {
-        url: 'http://localhost:8080/api/update-product',
+        url: `${backendDomain}/api/update-product`,
         method: 'post'
     },
     categoryProduct : {
-        url: 'http://localhost:8080/api/get-categoryProduct',
+        url: `${backendDomain}/api/get-categoryProduct`,
         method: 'get'
     },
     categoryWiseProduct : {
-        url: 'http://localhost:8080/api/category-product',
+        url: `${backendDomain}/api/category-product`,
         method: 'post'
     },
     productDetails : {
-        url: 'http://localhost:8080/api/product-details',
+        url: `${backendDomain}/api/product-details`,
         method: 'post'
     },
     addToCartProduct : {
-        url: 'http://localhost:8080/api/addtocart',
+        url: `${backendDomain}/api/addtocart`,
         method: 'post'
     },
     addToCartProductCount : {
-        url: 'http://localhost:8080/api/countAddToCartProduct',
+        url: `${backendDomain}/api/countAddToCartProduct`,
         method: 'get'
     },
     addToCartProductView : {
-        url: 'http://localhost:8080/api/view-cart-product',
+        url: `${backendDomain}/api/view-cart-product`,
         method: 'get'
     },
     updateCartProduct : {
-        url : `http://localhost:8080/api/update-cart-product`,
+        url : `${backendDomain}/api/update-cart-product`,
         method : 'post'
     },
     deleteCartProduct : {
-        url : `http://localhost:8080/api/delete-cart-product`,
+        url : `${backendDomain}/api/delete-cart-product`,
         method : 'post'
     },
     searchProduct : {
-        url : `http://localhost:8080/api/search`,
+        url : `${backendDomain}/api/search`,
         method : 'get'
     },
     filterProduct : {
-        url : `http://localhost:8080/api/filter-product`,
+        url : `${backendDomain}/api/filter-product`,
         method : 'post'
     }
     
